@@ -1,1 +1,7 @@
+BUG: Failed to add 2 more actions when playing village
 
+The bug is caused by the refactored function failing to increase the correct number of actions by two. It erroneously adds one to the action game variable.
+
+BUG: Failed to discard cards when playing Smithy
+
+The bug is caused by the refactored function failing to discards cards at the end of Smithy
